@@ -322,7 +322,7 @@ unh_graph %>%
   labs(title = "500 Monte Carlo Simulations of United Health", y= "Price") +
   theme_bw()
 
-#############
+##############
 
 aapl_graph <- aapl_final_mat%>%
   gather(Simulation, Price, 2:501) %>% 
